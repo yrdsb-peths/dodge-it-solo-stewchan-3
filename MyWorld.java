@@ -6,5 +6,8 @@ public class MyWorld extends World {
         
         Hero h = new Hero();
         addObject(h, 100, 200);
+        
+        Enemy e = new Enemy();
+        addObject(e, 200, 200);
     }
 }
